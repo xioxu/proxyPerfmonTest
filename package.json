@@ -1,0 +1,25 @@
+{
+  "name": "proxyperfmontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "site": "node demoSite/index.js",
+    "test": "node demoSite/index.js & proxyTest/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xioxu/proxyPerfmonTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xioxu/proxyPerfmonTest/issues"
+  },
+  "homepage": "https://github.com/xioxu/proxyPerfmonTest#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "wait-group-promise": "^0.3.1"
+  }
+}
